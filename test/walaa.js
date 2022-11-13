@@ -177,23 +177,65 @@
 //         document.write('hello');   
 // }
 
-// // let x ='walaa';
-// // for (let i =4 ; x<= 4 ; i-=5)
-// // {
-// //     console.log(x[i]);
-// // }
-// ضروري افهمو///////
+//  let x  ='walam';
+// for (let i =0; i> x.length ; i++)
+// {
+//      console.log(x[i]);
+//  }
+// // // ضروري افهمو///////
 
-let cars =['bmw', 'honda'];
-let models =[2020,2021,2022];
+// let cars =['bmw', 'honda'];
+// let models =[2020,2021];
 
-for( let i =0;  i < cars.length; i++)
-{
-    console.log(('car: ${cars[i]}'));
+// for( let i =0;  i < cars.length; i++)
+// {
+//     console.log(('car: ${cars[i]}'));
    
-      for( let j =0; models.length; j++)
-{
-    console.log(('models: ${models[j]}')); 
-}
-console.log(____________);
-}
+//       for( let j =0; models.length; j++)
+// {
+//     console.log(('models: ${models[j]}')); 
+// }
+// console.log(____________);
+// }
+// let users = ['walaa','huda','shemo','mhod']
+// // for(let i=0 ; i < users.length  ; i++) 
+// // {
+// // if ( typeof users[i]=='number')  
+// // {
+// //     continue;
+// // }
+// //     console.log(users[i]);
+// // }
+
+// for(let i=0 ; i < users.length ; i++) 
+// {
+// if (users[i] != 'walaa')  
+// {
+//     continue;
+// }
+//     console.log(users[i])
+// } 
+// function calcage(age) {
+    
+//     let resalt = age * 356;
+//     console.log(resalt);
+// }
+// calcage(12);
+
+// function walaa()
+// {
+//     return 2000;
+// }
+// let w = walaa;
+// console.log(      walaa());
+
+// hoisting///scop//
+// console.log(      x()     );
+// function x()
+// { 
+//     function y () {return 1 }
+// return y();
+// function y () {return 0 }    
+//     }
+
+
